@@ -49,3 +49,7 @@
 2. No virtual DOM
 3. CSS scope
    - โครงสร้างไฟล์คล้าย VueJs
+
+## `Ref`
+
+- https://svelte.dev/blog/the-easiest-way-to-get-started
