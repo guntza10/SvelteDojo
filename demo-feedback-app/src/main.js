@@ -1,10 +1,11 @@
-import App from './App.svelte';
+import App from "./App.svelte";
+import Fundamental from "./Fundamental.svelte";
 
 const app = new App({
 	target: document.body,
-	props: {
-		name: 'world'
-	}
+	// props: {
+	// 	name: 'world'
+	// }
 });
 
 export default app;
