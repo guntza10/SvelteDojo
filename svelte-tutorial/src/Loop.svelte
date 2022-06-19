@@ -56,7 +56,7 @@
   h1 {
     font-size: 72px;
   }
-  h1 {
+  h3 {
     font-size: 38px;
   }
 </style>
