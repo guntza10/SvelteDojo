@@ -1,10 +1,17 @@
 <script>
   // props default define value
-  export let btnText = "Default Text";
-  // props default not define
+  export let btnText = "Component Button";
+  // props default not define=>undefine
   //   export let btnText;
 </script>
 
-<button>{btnText}</button>
+<!-- event forwarding -->
+<button on:click>{btnText}</button>
 
-<style></style>
+<style>
+  button {
+    background: #667eea;
+    border: 1px solid #4c51bf;
+    color: #fff;
+  }
+</style>

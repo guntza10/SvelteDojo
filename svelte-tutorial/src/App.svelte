@@ -7,6 +7,7 @@
   import Conditionals from "./Conditionals.svelte";
   import Components from "./Components.svelte";
   import Props from "./Props.svelte";
+  import EventForwarding from "./EventForwarding.svelte";
 </script>
 
 <main>
@@ -18,6 +19,7 @@
   <Conditionals />
   <Components />
   <Props />
+  <EventForwarding />
 </main>
 
 <style>
