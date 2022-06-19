@@ -10,6 +10,7 @@
   import EventForwarding from "./EventForwarding.svelte";
   import Slots from "./Slots.svelte";
   import InputTypes from "./InputTypes.svelte";
+  import DispatchingCustomEvents from "./DispatchingCustomEvents.svelte";
 </script>
 
 <main>
@@ -24,6 +25,7 @@
   <EventForwarding />
   <Slots />
   <InputTypes />
+  <DispatchingCustomEvents />
 </main>
 
 <style>
