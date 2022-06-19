@@ -1,6 +1,6 @@
 # `SvelteDojo`
 
-- เป็น framework ที่เอาไว้ทำ front-end
+- เป็น Compiler ที่เอาไว้ทำ front-end ไม่ใช่ framework
 
 - เป็น SPA(Single Page Application) เหมือน ReactJs
 
