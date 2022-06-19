@@ -5,6 +5,7 @@
   import Loop from "./Loop.svelte";
   import InlineEventHandler from "./InlineEventHandler.svelte";
   import Conditionals from "./Conditionals.svelte";
+  import Components from "./Components.svelte";
 </script>
 
 <main>
@@ -14,6 +15,7 @@
   <Loop />
   <InlineEventHandler />
   <Conditionals />
+  <Components />
 </main>
 
 <style>
