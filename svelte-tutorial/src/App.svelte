@@ -3,7 +3,8 @@
   import HandlingInputs from "./HandlingInputs.svelte";
   import ReactiveValues from "./ReactiveValues.svelte";
   import Loop from "./Loop.svelte";
-  import InlineEventHandle from "./InlineEventHandle.svelte";
+  import InlineEventHandler from "./InlineEventHandler.svelte";
+  import Conditionals from "./Conditionals.svelte";
 </script>
 
 <main>
@@ -11,7 +12,8 @@
   <HandlingInputs />
   <ReactiveValues />
   <Loop />
-  <InlineEventHandle />
+  <InlineEventHandler />
+  <Conditionals />
 </main>
 
 <style>
