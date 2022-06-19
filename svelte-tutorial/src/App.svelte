@@ -9,6 +9,7 @@
   import Props from "./Props.svelte";
   import EventForwarding from "./EventForwarding.svelte";
   import Slots from "./Slots.svelte";
+  import InputTypes from "./InputTypes.svelte";
 </script>
 
 <main>
@@ -22,6 +23,7 @@
   <Props />
   <EventForwarding />
   <Slots />
+  <InputTypes />
 </main>
 
 <style>
