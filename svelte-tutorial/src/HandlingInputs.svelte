@@ -15,10 +15,10 @@
   <h2>Hello {name}</h2>
   <!-- on:input เอาไว้ดักเวลา input มีการ change -->
   <input type="text" on:input={handleInput} />
-  <!-- two-waybinding shorthand-->
-  <input type="text" on:input={handleInput} bind:value={name} />
-  <!-- two-waybinding -->
-  <input type="text" on:input={handleInput} value={name} />
+  <!-- two-way binding -->
+  <input type="text" bind:value={name} />
+  <!-- one-way binding => ถ้า name มีการเปลี่ยน input ตัวนี้ก็จะเปลี่ยนตาม แต่ถ้า input เปลี่ยน name ไม่ได้เปลี่ยนด้วย -->
+  <input type="text" value={name} />
   <button on:click={resetName}>set name to Unknown</button>
 </main>
 
