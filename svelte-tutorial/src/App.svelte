@@ -8,6 +8,7 @@
   import Components from "./Components.svelte";
   import Props from "./Props.svelte";
   import EventForwarding from "./EventForwarding.svelte";
+  import Slots from "./Slots.svelte";
 </script>
 
 <main>
@@ -20,6 +21,7 @@
   <Components />
   <Props />
   <EventForwarding />
+  <Slots />
 </main>
 
 <style>
