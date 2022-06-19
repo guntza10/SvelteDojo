@@ -6,6 +6,7 @@
   import InlineEventHandler from "./InlineEventHandler.svelte";
   import Conditionals from "./Conditionals.svelte";
   import Components from "./Components.svelte";
+  import Props from "./Props.svelte";
 </script>
 
 <main>
@@ -16,6 +17,7 @@
   <InlineEventHandler />
   <Conditionals />
   <Components />
+  <Props />
 </main>
 
 <style>
