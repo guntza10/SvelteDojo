@@ -6,12 +6,21 @@
 </script>
 
 <!-- event forwarding -->
-<button on:click>{btnText}</button>
+<!-- event modifier -->
+<div class="card" on:click|self>
+  <button>{btnText}</button>
+</div>
 
 <style>
   button {
     background: #667eea;
     border: 1px solid #4c51bf;
     color: #fff;
+  }
+
+  .card {
+    padding: 12px;
+    border: 2px solid gray;
+    margin-bottom: 8px;
   }
 </style>
